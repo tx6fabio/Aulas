@@ -1,0 +1,18 @@
+body{
+    background-color: rgb(174, 223, 186);
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+}
+
+h1{
+    color: rgb(139, 56, 0);
+    background-color: lightblue;
+}
+
+h2{
+    color: rgb(132, 0, 255);
+}
+
+p{
+    text-align: justify;
+}

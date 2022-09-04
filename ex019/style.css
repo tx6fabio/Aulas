@@ -1,0 +1,62 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+a {
+    color: red;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:visited{
+    color: #f57a08;
+}
+
+.especial:visited{
+    color: hsl(189, 54%, 97%);
+}
+
+a:hover{
+    color: black;
+    text-decoration: underline;
+    
+}
+
+a:active{
+    color: yellow;
+}
+
+.especial{
+    background-color: rgba(139, 0, 0, 0.733);
+    color: white;
+
+}
+.especial::before{
+    content: '***';
+    color: hwb(113 2% 70%);
+    font-weight: normal;
+    text-decoration: none;
+}
+
+.especial::after {
+    content: '***';
+    color: hwb(113 2% 74%);
+    font-weight: normal;
+    text-decoration: none;
+}
+
+
+a::before{
+    content: '=>';
+    color: #da2d2d;
+    font-weight: normal;
+    text-decoration: none;
+}
+
+a::after {
+    content: '<=';
+    color: rgb(243, 32, 32);
+    font-weight: normal;
+    text-decoration: none;
+}
