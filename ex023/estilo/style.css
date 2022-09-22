@@ -21,12 +21,12 @@ caption {
 }
 
 thead, tfoot {
-    background-color: orangered;
+    background-color: rgba(3, 9, 92, 0.577);
     color: white;
 }
 
 tbody > tr:nth-child(odd){
-    background-color: rgba(74, 238, 74, 0.267);
+    background-color: rgba(233, 245, 159, 0.267);
     color: rgb(14, 13, 13);
 }
 tbody > tr:nth-child(even){
@@ -36,4 +36,8 @@ tbody > tr:nth-child(even){
 
 td.num {
     text-align: right;
+}
+
+tfoot {
+    text-align: left;
 }
