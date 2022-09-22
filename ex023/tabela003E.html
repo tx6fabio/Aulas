@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tabela</title>
+    <style>
+        table{
+            border-collapse: collapse;
+            width: 600px;
+        }
+
+        thead {
+            background-color: black;
+            color: azure;
+            
+        }
+
+        th, td {
+            border: 1px solid black;
+
+        }
+
+        td.num{
+            width: 400px;
+        }
+
+        tfoot {
+            background-color: black;
+            color: white;
+        }
+        th.baixo{
+            width: 600px;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <caption>teste de tabela</caption>
+        <thead>
+            <th>dados 1</th>
+            <th>dados 2</th>
+        </thead>
+        <tbody>
+            <tr>
+                <td style="text-align:center ;">exemplo1</td>
+                <td class="num">
+                    <ul>
+                        <li>Sumário executivo, incluindo:</li>
+                        <li>Justificativas</li>
+                        <li>Objetivo do projeto</li>
+                        <li>Resultados desejáveis</li>
+                        <li>Responsabilidades pelo projeto</li>
+                    </ul>
+                
+            </td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th class="baixo">tabela criada por Fábio Barbosa</th>
+                
+            </tr>
+
+        </tfoot>
+    </table>
+</body>
+</html>
