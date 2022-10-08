@@ -15,12 +15,12 @@
     <h1>Teste de Formulário</h1>
     <form action="cadastro.php" method="post" autocomplete="on">
     <p>
-        <label for="id_user">usuario</label>
-        <input type="text" name="user" id="id_user" required minlength="5" maxlength="30" size="10" placeholder="Nome de usuário">
+        <label for="id_user">Usuario</label>
+        <input type="text" name="user" id="id_user" required minlength="5" maxlength="30" size="10" placeholder="Nome de usuário" autocomplete="username">
     </p>
     <p>
         <label for="id_pass">Senha</label>
-        <input type="password" name="pass" id="id_pass" required minlength="6" maxlength="15" size="8" placeholder="Mínimo 6 digitos">
+        <input type="password" name="pass" id="id_pass" required minlength="6" maxlength="15" size="8" placeholder="Mínimo 6 digitos" autocomplete="current-password">
     </p>
     <p>
         <input type="submit" value="Enviar">
