@@ -9,7 +9,11 @@
 html, body {
     height: 100vh;
     width: 100vw;
+<<<<<<< HEAD
     background-color: rgba(0, 0, 0, 0.747);
+=======
+    background-color: rgba(8, 8, 8, 0.747);
+>>>>>>> 7b82cc8a24087aa336bf85e60fabb8912d85f693
 }
 
 body {
@@ -25,13 +29,18 @@ main {
 }
 
 section#telefone {
+<<<<<<< HEAD
     position: absolute;
+=======
+    position:absolute ;
+>>>>>>> 7b82cc8a24087aa336bf85e60fabb8912d85f693
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     height: 627px;
     width: 311px;
     background: url('../imagens/frame-iphone.png') no-repeat;
+<<<<<<< HEAD
 }
 
 iframe#tela {
@@ -62,3 +71,6 @@ section#redes-sociais img:hover {
     transition: transform .3s, border 1s;
 }
 
+=======
+}
+>>>>>>> 7b82cc8a24087aa336bf85e60fabb8912d85f693
