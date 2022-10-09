@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+    </style>
+</head>
+<body>
+   <h1>Teste de Formulário</h1>
+   <form action="cadastro.php" method="get" autocomplete="on">
+    <fieldset>
+        <legend>Dados Pessoais</legend>
+        <p>
+            <label for="id_nome">Nome</label>
+            <input type="text" name="nome" id="id_nome" minlength="5" maxlength="20" required>
+        </p>
+        <p>
+            <label for="id_email">E-mail</label>
+            <input type="email" name="email" id="id_email" autocomplete="email">
+        </p>
+        <p>
+            <label for="id_tel">Telefone</label>
+            <input type="tel" name="telefone" id="id_tel" pattern="^\(\d{2}\)\d{4,5}-\d{4}$" autocomplete="tel" required placeholder="(xx)xxxxx-xxxx">
+        </p>
+        
+    </fieldset>
+    <p>
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Limpar">
+    </p>
+
+
+   </form>
+
+</body>
+</html>
