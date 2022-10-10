@@ -5,6 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formulários</title>
+    <link rel="stylesheet" href="estilos/style.css">
+    
 </head>
 <body>
     <h1>Exemplo de formulários</h1>
@@ -24,16 +26,31 @@
                 <option value="MA">Maranhão</option>
                 <option value="PE">Pernambuco</option>
                 <option value="RN">Rio Grande do Norte</option>
-              
             </optgroup>
       </select>
-            
-        </p>
 
-        <p>
+      <p>
+        <label for="id_prof">Profissão</label>
+        <input type="text" name="prof" id="id_prof" list="lstprof">
+        <datalist id="lstprof">
+            <option>Administrador</option>
+            <option>Professor</option>
+            <option>Engenheiro</option>
+            <option>Desenvolvedor</option>
+            <option>Veterinário</option>
             
-        </p>
-    
+        </datalist>
+      </p>
+
+      <p>
+        <label for="id_msg">Mensagem: </label><br>
+        <textarea name="msg" id="" cols="30" rows="10"></textarea>
+      </p>
+      <p>
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Limpar">
+      </p>
+            
 
     </form>
     
